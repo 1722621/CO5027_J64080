@@ -1,0 +1,54 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+#map {
+    height: 500px;
+}
+
+.btn-default {
+    left: 50%;
+    color: white;
+    background-color: royalblue;
+}
+
+    .btn-default:focus, .btn-default:hover {
+        color: white;
+        background-color: #000000;
+    }
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+#contactinfo h5, p {
+    text-align: center;
+}

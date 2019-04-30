@@ -1,0 +1,91 @@
+﻿body {
+    padding-top: 100px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.btn-default {
+    color: white;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .btn-default:focus, .btn-default:hover {
+        color: white;
+        background-color: #000000;
+    }
+
+.dropdown-menu {
+    background-color: #000000;
+}
+
+    .dropdown-menu li a {
+        color: white;
+    }
+
+/*CAROUSEL*/
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+    margin-top: 40px;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    background-color: #000000;
+}
+
+.carousel-inner img {
+    width: 70%;
+    margin: auto;
+}
+
+
+.carousel, .item, .active {
+    height: 100%;
+}
+
+.navbar-right lblname {
+    text-align: justify;
+    color: lawngreen;
+}
+
+/*userproducts.aspx*/
+.brand {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
