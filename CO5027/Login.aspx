@@ -13,7 +13,7 @@
 <!-- USERNAME TEXTBOX -->
              <div class="form-group">
                   <div class="inner-addon left-addon">
-                     <i class="glyphicon glyphicon-user"></i>                 
+                     <i class="glyphicon glyphicon-user"></i>          
                         <asp:TextBox ID="Username" Cssclass="form-control" placeholder="Username" runat="server"/>  
                         <asp:RequiredFieldValidator ID="rfvUsername" ValidationGroup="CONTACT" ControlToValidate="Username" cssClass="text-danger" ErrorMessage="Username is a required field." Display="Dynamic" runat="server"></asp:RequiredFieldValidator>
                   </div>
